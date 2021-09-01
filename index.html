@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="programa.js" defer></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <section id="contenedor" class="contenedor">
+    <div class="container">
         <div id="calculadora" class="calculadora">
-            <div id="display" class="display">
+            <div class="display">
+                <div id="valor-anterior" class="result"></div>
+                <div id="valor-actual" class="result"></div>
             </div>
-
-            <button class="btn">DEL</button>
+            
+            <button class="btn">&larr;</button>
             <button class="btn">C</button>
             <button class="btn">/</button>
-            <button class="btn">*</button>
+            <button class="btn">X</button>
             <button class="btn">7</button>
             <button class="btn">8</button>
             <button class="btn">9</button>
@@ -26,16 +28,14 @@
             <button class="btn">5</button>
             <button class="btn">6</button>
             <button class="btn">+</button>
-            <div class="containerabajo1">
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                
-                <button class="btngrande2">0</button>
-                <button class="btn">.</button>
-            </div>
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
             <button class="btngrande1">=</button>
+            <button class="btngrande2">0</button>
+            <button class="btn">.</button>
+            
         </div>
-    </section>
+    </div>    
 </body>
 </html>

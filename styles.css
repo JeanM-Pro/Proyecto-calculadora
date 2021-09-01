@@ -19,7 +19,7 @@ body{
     align-content: center;
     grid-template-columns: repeat(4, 60px);
     grid-template-rows: minmax(100px, auto) repeat(5, 60px);
-    background-color: rgb(11, 240, 240);
+    background-color: rgb(175, 184, 184);
     width: 255px;
     height: 430px;
     flex-wrap: wrap;
